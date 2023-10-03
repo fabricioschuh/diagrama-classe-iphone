@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public interface AparelhoTelefonico {
 
-    ArrayList<String> agenda = new ArrayList<>();
+    ArrayList<Contato> agenda = new ArrayList<>();
 
     private boolean sinalRede() {
         return true;

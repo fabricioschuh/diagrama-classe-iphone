@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 
 public interface ReprodutorMusical {
-    ArrayList<String> musicas = new ArrayList<>();
+    ArrayList<Musica> musicas = new ArrayList<>();
 
     void tocar();
     void pausar();
